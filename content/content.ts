@@ -60,7 +60,7 @@ export const content = {
       },
       {
         label: "GitHub",
-        href: "https://github.com/9984-fahyan",
+        href: "https://github.com/the-fahyan",
         icon: "github",
         external: true,
       },
