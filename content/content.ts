@@ -82,12 +82,12 @@ export const content = {
       { name: "capcut", logo: "/tools-icons/capcut.jpg", level: 5 },
       { name: "picsart", logo: "/tools-icons/picsart.jpg", level: 4 },
       {
-        name: "Davinchi Resolve",
+        name: "DaVinci Resolve",
         logo: "/tools-icons/DaVinci_Resolve_Studio.png",
         level: 3,
       },
       { name: "Canva", logo: "/tools-icons/canva.jpg", level: 5 },
-      { name: "Gemmni", logo: "/tools-icons/gemmni.jpg", level: 4 },
+      { name: "Gemini", logo: "/tools-icons/gemmni.jpg", level: 4 },
     ] as Skill[],
   },
 
@@ -247,7 +247,7 @@ export const content = {
 
   footer: {
     tagline: "Shot on instinct, cut on rhythm, color graded for chills. Your story, but make it cinematic.",
-    signOff: "2026 Fahyan. Frame it real. Keep it raw.",
+    signOff: "Frame it real. Keep it raw.",
   },
 };
 

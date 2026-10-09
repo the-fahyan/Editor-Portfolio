@@ -86,10 +86,9 @@ function buildJsonLd() {
         "@type": "Person",
         name: site.ownerName,
         url: site.url,
-        sameAs: [
-          "https://www.instagram.com/the_fahyan",
-          "https://github.com/9984-fahyan",
-        ],
+        sameAs: content.hero.socials
+          .filter((s) => s.external && typeof s.icon === "string")
+          .map((s) => s.href),
       },
       {
         "@type": "ProfessionalService",

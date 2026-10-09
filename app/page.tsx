@@ -15,7 +15,7 @@ const Reels = dynamic(() => import("@/components/Reels"), {
 const GalleryTabs = dynamic(() => import("@/components/GalleryTabs"), {
   loading: () => <div style={{ minHeight: "30vh" }} />,
 });
-const InstagramPages = dynamic(() => import("@/components/Videography"), {
+const InstagramPages = dynamic(() => import("@/components/InstagramPages"), {
   loading: () => <div style={{ minHeight: "30vh" }} />,
 });
 const Contact = dynamic(() => import("@/components/Contact"), {
