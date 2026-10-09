@@ -65,7 +65,7 @@ export const content = {
         external: true,
       },
       { label: "Email", href: "mailto:fahyan399@gmail.com", icon: "email" },
-      { label: "View CV", href: "#", icon: "cv" },
+      { label: "View CV", href: "/Fahyan_Resume.pdf", icon: "cv" },
     ] as Social[],
   },
 
